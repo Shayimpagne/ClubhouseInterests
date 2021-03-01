@@ -22,8 +22,8 @@ class ViewController: UIViewController {
          Interest(emoji: "💈", title: "Advertising"),
          Interest(emoji: "💋", title: "Beauty"),
          Interest(emoji: "📚", title: "Books"),
-         Interest(emoji: "😅", title: "Something else"),
-         Interest(emoji: "🤌", title: "You made it")],
+         Interest(emoji: "🥑", title: "Diet"),
+         Interest(emoji: "👑", title: "History")],
         
         [Interest(emoji: "📷", title: "Photography"),
          Interest(emoji: "📖", title: "Writing"),

@@ -99,7 +99,7 @@ extension InterestGroupView: UIScrollViewDelegate {
             }
         case let x where x > minRowOffset:
             let minRowVisibleWidth = minRowWidth - scrollView.contentOffset.x
-            
+
             for row in rows {
                 let velocity = row.contentSize.width > bounds.width ?
                 (row.contentSize.width - bounds.width) / minRowOffset : 1
